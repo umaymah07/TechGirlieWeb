@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techgirlie | Empowering Women in STEM</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f9f0ed;
+      color: #3d0c1b;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, footer {
+      background-color: #f9f0ed;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #7d294e;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      background-color: #7d294e;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .btn:hover {
+      background-color: #a34065;
+    }
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .form-section input, .form-section select {
+      display: block;
+      width: 80%;
+      margin: 0.5rem auto;
+      padding: 0.75rem;
+      border: 2px solid #7d294e;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .footer-links a {
+      color: #7d294e;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="c:tech.png" alt="techgirlelogo" style="width: 120px;">
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="jobs.html">JOBS</a>
+      <a href="about.html">ABOUT</a>
+      <a href="careers.html">CAREERS</a>
+      <a href="login.html">LOGIN</a>
+    </nav>
+  </header>
+
+  <section class="section form-section">
+    <h2>CREATE AN ACCOUNT</h2>
+    <form>
+      <input type="text" name="fullname" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="password" name="confirm" placeholder="Confirm Password" required>
+      <select name="role">
+        <option value="jobseeker">Job Seeker</option>
+        <option value="employer">Employer</option>
+      </select>
+      <input type="file" name="resume">
+      <input type="file" name="extra">
+      <label><input type="checkbox" required> I agree to the terms & conditions</label>
+      <button class="btn" type="submit">REGISTER, and change your life</button>
+    </form>
+  </section>
+
+  <footer class="footer-links">
+    <a href="privacy.html">PRIVACY POLICY</a> |
+    <a href="terms.html">TERMS OF SERVICE</a> |
+    <a href="contact.html">CONTACT US</a>
+  </footer>
+
+</body>
+</html>

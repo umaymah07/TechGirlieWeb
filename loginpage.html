@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Techgirlie</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f9f0ed;
+      margin: 0;
+      color: #3d0c1b;
+    }
+    header, nav, footer {
+      background-color: #f9f0ed;
+      text-align: center;
+      padding: 1rem 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #7d294e;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .login-container {
+      max-width: 400px;
+      margin: 3rem auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(125, 41, 78, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #7d294e;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.75rem 0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    .login-btn {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #7d294e;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .login-btn:hover {
+      background-color: #a34065;
+    }
+    .extra-links {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .extra-links a {
+      text-decoration: none;
+      color: #7d294e;
+    }
+    .extra-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/logo.png" alt="Techgirlie Logo" style="width: 120px;">
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="jobs.html">JOBS</a>
+      <a href="about.html">ABOUT</a>
+      <a href="careers.html">CAREERS</a>
+      <a href="login.html">LOGIN</a>
+    </nav>
+  </header>
+
+  <div class="login-container">
+    <h1>LOGIN</h1>
+    <form action="dashboard.html" method="post">
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button class="login-btn" type="submit">LOGIN</button>
+    </form>
+    <div class="extra-links">
+      <p><a href="register.html">Don't have an account? Register here</a></p>
+      <p><a href="forgot-password.html">Forgot password?</a></p>
+    </div>
+  </div>
+
+  <footer style="text-align: center; padding: 1rem;">
+    <a href="privacy.html">PRIVACY POLICY</a> |
+    <a href="terms.html">TERMS OF SERVICE</a> |
+    <a href="contact.html">CONTACT US</a>
+  </footer>
+</body>
+</html>
+
+
